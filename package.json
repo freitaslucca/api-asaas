@@ -1,0 +1,31 @@
+{
+  "name": "api-asaas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+"scripts": {
+  "dev": "nodemon -r dotenv/config app.js",
+  "start": "node -r dotenv/config app.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freitaslucca/api-asaas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freitaslucca/api-asaas/issues"
+  },
+  "homepage": "https://github.com/freitaslucca/api-asaas#readme",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "fastify": "^5.5.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
